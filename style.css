@@ -92,3 +92,104 @@ body {
   transition: all 0.3s ease;
   color: rgb(214, 214, 214);
 }
+
+/* Media Query */
+@media (max-width: 41.25rem) {
+  /* Label */
+  .label {
+    padding: 30px 30px 15px 30px;
+  }
+  /* Password input */
+  #password-input {
+    font-size: calc(18 / 16 * 1rem);
+    padding: 10px;
+    width: 400px;
+    border: 3px solid #53545e;
+  }
+  /* Pasword Title */
+  .password-title {
+    bottom: 70px;
+    left: 40px;
+    font-size: calc(18 / 16 * 1rem);
+  }
+  /* Password Eye */
+  .fa-eye {
+    font-size: calc(20 / 16 * 1rem);
+    bottom: 47px;
+    right: 42px;
+  }
+  /* Password checker */
+  .password-checker {
+    height: 6px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 30rem) {
+  /* Password input */
+  #password-input {
+    font-size: calc(18 / 16 * 1rem);
+    width: 310px;
+  }
+  /* Pasword Title */
+  .password-title {
+    font-size: 1rem;
+  }
+  /* Password Eye */
+  .fa-eye {
+    font-size: calc(18 / 16 * 1rem);
+  }
+  /* Password checker */
+  .password-checker {
+    height: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: all ease-in 0.3s;
+  }
+}
+
+@media (max-width: 23.75rem) {
+  /* Password input */
+  #password-input {
+    font-size: calc(18 / 16 * 1rem);
+    width: 280px;
+  }
+  .fa-eye {
+    font-size: calc(17 / 16 * 1rem);
+  }
+
+  /* Footer */
+
+  .footer {
+    position: absolute;
+    top: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .footer-link,
+  .footer-link:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+    position: relative;
+  }
+
+  .footer-link:hover {
+    transition: all 0.3s ease;
+    color: rgb(214, 214, 214);
+  }
+}
+
+@media (max-width: 21.875rem) {
+  /* Password input */
+  #password-input {
+    font-size: calc(18 / 16 * 1rem);
+    width: 250px;
+  }
+}
