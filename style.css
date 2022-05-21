@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #506aff;
+  user-select: none;
+}
+/* Label */
+.label {
+  background: #fff;
+  padding: 50px 50px 30px 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+/* Password input */
+#password-input {
+  z-index: 1;
+  color: #53545e;
+
+  font-weight: 500;
+  font-size: calc(25 / 16 * 1rem);
+  padding: 15px;
+  width: 500px;
+  background: none;
+  border-radius: 10px;
+  border: 4px solid #53545e;
+  outline: none;
+}
+/* Pasword Title */
+.password-title {
+  bottom: 110px;
+  left: 60px;
+  position: absolute;
+  color: #52545f;
+  font-weight: 500;
+  font-size: calc(20 / 16 * 1rem);
+  background: #fff;
+  padding: 0 10px;
+}
+/* Password Eye */
+.fa-eye {
+  color: #9da3bd;
+  font-size: calc(25 / 16 * 1rem);
+  bottom: 77px;
+  right: 65px;
+  position: absolute;
+  cursor: pointer;
+}
+/* Password checker */
+.password-checker {
+  height: 8px;
+  border-radius: 10px;
+  margin-top: 15px;
+  transition: all ease 0.3s;
+}
+
+/* Footer */
+
+.footer {
+  position: absolute;
+  top: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer-link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+  position: relative;
+}
+
+.footer-link:hover {
+  transition: all 0.3s ease;
+  color: rgb(214, 214, 214);
+}
