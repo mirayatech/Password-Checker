@@ -7,3 +7,15 @@ When you are in the website, you can see an input with a label on top of the one
 * `HTML`
 * `CSS`
 * `JavaScript`
+
+## How it looks 🎥
+
+**Live:** https://password-checker-01.netlify.app/
+
+
+
+
+
+
+https://user-images.githubusercontent.com/71933266/170869374-61154c2a-c0ba-49a0-8011-561690b552e9.mp4
+
