@@ -16,7 +16,6 @@ body {
   background: #506aff;
   user-select: none;
 }
-/* Label */
 .label {
   background: #fff;
   padding: 50px 50px 30px 50px;
@@ -24,7 +23,6 @@ body {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   position: relative;
 }
-/* Password input */
 #password-input {
   z-index: 1;
   color: #53545e;
@@ -38,7 +36,6 @@ body {
   border: 4px solid #53545e;
   outline: none;
 }
-/* Pasword Title */
 .password-title {
   bottom: 110px;
   left: 60px;
@@ -49,7 +46,6 @@ body {
   background: #fff;
   padding: 0 10px;
 }
-/* Password Eye */
 .fa-eye {
   color: #9da3bd;
   font-size: calc(25 / 16 * 1rem);
@@ -58,15 +54,12 @@ body {
   position: absolute;
   cursor: pointer;
 }
-/* Password checker */
 .password-checker {
   height: 8px;
   border-radius: 10px;
   margin-top: 15px;
   transition: all ease 0.3s;
 }
-
-/* Footer */
 
 .footer {
   position: absolute;
@@ -93,32 +86,27 @@ body {
   color: rgb(214, 214, 214);
 }
 
-/* Media Query */
+
 @media (max-width: 41.25rem) {
-  /* Label */
   .label {
     padding: 30px 30px 15px 30px;
   }
-  /* Password input */
   #password-input {
     font-size: calc(18 / 16 * 1rem);
     padding: 10px;
     width: 400px;
     border: 3px solid #53545e;
   }
-  /* Pasword Title */
   .password-title {
     bottom: 70px;
     left: 40px;
     font-size: calc(18 / 16 * 1rem);
   }
-  /* Password Eye */
   .fa-eye {
     font-size: calc(20 / 16 * 1rem);
     bottom: 47px;
     right: 42px;
   }
-  /* Password checker */
   .password-checker {
     height: 6px;
     margin-top: 10px;
@@ -126,20 +114,16 @@ body {
 }
 
 @media (max-width: 30rem) {
-  /* Password input */
   #password-input {
     font-size: calc(18 / 16 * 1rem);
     width: 310px;
   }
-  /* Pasword Title */
   .password-title {
     font-size: 1rem;
   }
-  /* Password Eye */
   .fa-eye {
     font-size: calc(18 / 16 * 1rem);
   }
-  /* Password checker */
   .password-checker {
     height: 5px;
     border-radius: 10px;
@@ -149,7 +133,6 @@ body {
 }
 
 @media (max-width: 23.75rem) {
-  /* Password input */
   #password-input {
     font-size: calc(18 / 16 * 1rem);
     width: 280px;
@@ -157,8 +140,6 @@ body {
   .fa-eye {
     font-size: calc(17 / 16 * 1rem);
   }
-
-  /* Footer */
 
   .footer {
     position: absolute;
@@ -187,7 +168,6 @@ body {
 }
 
 @media (max-width: 21.875rem) {
-  /* Password input */
   #password-input {
     font-size: calc(18 / 16 * 1rem);
     width: 250px;

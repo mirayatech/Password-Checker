@@ -1,14 +1,11 @@
-// Selectors
 const widthChecker = document.querySelector(".password-checker");
 const password = document.querySelector("#password-input");
 const eye = document.querySelector(".fa-eye");
 
-// Event Listener
 eye.addEventListener("click", showPassword);
 
 password.addEventListener("input", checkPassword);
 
-//  Function - Shows Password
 function showPassword() {
   eye.classList.toggle("fa-eye-slash");
   if (password.type === "password") {
@@ -18,7 +15,6 @@ function showPassword() {
   }
 }
 
-// Function Check password
 function checkPassword() {
   const value = password.value;
   if (value.length < 1) {
