@@ -10,7 +10,6 @@ When you are in the website, you can see an input with a label on top of the one
 
 ## How it looks 🎥
 
-**Live:** https://password-checker-01.netlify.app/
 
 
 
